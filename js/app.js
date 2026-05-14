@@ -32,14 +32,14 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
 
         // 默认选中过滤开关
-        localStorage.setItem('yellowFilterEnabled', 'true');
+        localStorage.setItem('yellowFilterEnabled', 'false');
         localStorage.setItem(PLAYER_CONFIG.adFilteringStorage, 'true');
 
         // 默认启用豆瓣功能
-        localStorage.setItem('doubanEnabled', 'true');
+        localStorage.setItem('doubanEnabled', 'false');
 
         // 标记已初始化默认值
-        localStorage.setItem('hasInitializedDefaults', 'true');
+        localStorage.setItem('hasInitializedDefaults', 'false');
     }
 
     // 设置黄色内容过滤器开关初始状态
