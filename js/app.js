@@ -576,9 +576,9 @@ function resetSearchArea() {
     }
 
     // 如果有豆瓣功能，检查是否需要显示豆瓣推荐区域
-    if (typeof updateDoubanVisibility === 'function') {
-        updateDoubanVisibility();
-    }
+//    if (typeof updateDoubanVisibility === 'function') {
+//        updateDoubanVisibility();
+//    }
 
     // 重置URL为主页
     try {
