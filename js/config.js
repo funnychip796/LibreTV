@@ -56,11 +56,6 @@ const API_SITES = {
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
-    jisu: {
-        api: 'https://jszyapi.com/api.php/provide/vod',
-        name: '极速资源',
-        detail: 'https://jszyapi.com', 
-    },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
