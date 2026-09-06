@@ -34,10 +34,10 @@ const API_SITES = {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
-    dbzy: {
-        api: 'https://dbzy.tv/api.php/provide/vod',
-        name: '豆瓣资源',
-    },
+//    dbzy: {
+//        api: 'https://dbzy.tv/api.php/provide/vod',
+//        name: '豆瓣资源',
+//    },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都资源',
